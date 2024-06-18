@@ -1,0 +1,311 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 21, 34);
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Botón de iniciar sesión */
+
+
+.Logo-Header {
+  max-width: 100px;
+  margin-left: 0;
+  border-radius: 10%;
+}
+
+/* Bienvenido  */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.texto {
+  position: relative;
+  padding-left: 20px;
+  border-left: 5px solid rgb(0, 21, 34);
+}
+
+.imagen {
+  grid-column: 2 / span 1;
+  position: relative;
+  max-width: 200px;
+  min-height: 500px;
+  
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.parrafo-body {
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.empezar-btn,
+.informacion-btn,
+.leermas-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.empezar-btn {
+  background-color: #65A56F;
+  color: #fff;
+  margin-right: 1rem;
+  width: 25%;
+}
+
+.informacion-btn {
+  background-color: #f2f2f2;
+  color: #0073b7;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.finanzas {
+  width: 600px;
+  height: auto;
+}
+
+/* Beneficios  */
+.beneficios-contenedores {
+  margin: 50px;
+}
+
+.beneficios-contenedores>div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.beneficios-contenedores div a {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  height: auto;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.beneficios-contenedores div a h1 {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  min-height: 50px;
+  max-height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #36353F;
+}
+
+.beneficios-contenedores div a>p {
+  text-align: justify;
+  min-height: 100px;
+  max-height: 200px;
+  margin: 10px;
+  color: #36353F;
+  max-width: 250px;
+}
+
+.beneficios-contenedores div a div div {
+  align-items: center;
+}
+
+.beneficios-contenedores div a div p {
+  font-size: 14px;
+}
+
+.beneficios-contenedores div a .leermas-btn {
+  width: 120px;
+}
+
+.leermas-btn {
+  background-color: #048ABF;
+  color: #fff;
+  margin-right: 1rem;
+  width: 25%;
+}
+
+/*Contenido de la misión y visión*/
+.contenido-mision-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.texto-mision-vision {
+  grid-column: 2 / span 1;
+  position: relative;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.imagen-misios-vision {
+  grid-column: 1 / span 1;
+  position: relative;
+  border-right: 5px solid #65A56F;
+}
+
+.resaltado {
+  color: #0073b7;
+  font-weight: bold;
+}
+
+/*Servicios que ofrecemos*/
+.servicios-body {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.servicios-contenedores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filas-contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-content: center;
+}
+
+.servicio {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #65A56F;
+  margin: 20px;
+}
+
+.servicio h2 {
+  color: #333;
+  text-align: center;
+}
+
+.servicio li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.servicio img {
+  width: 50px;
+  height: 50px;
+}
+
+/*Footer*/
+.footer {
+  background-color:rgb(0, 21, 34);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white; 
+}
+
+.logo img {
+  width: 200px; 
+  height: auto;
+  border-radius: 30%;
+}
+
+.texto-footer {
+  margin-top: 20px; 
+}
+
+.redes-sociales {
+  margin-top: 20px; 
+  display: flex; 
+}
+
+.redes-sociales a {
+  margin-right: 10px; 
+}
+
+.enlaces-sitio,
+.soporte,
+.suscripcion {
+  margin-top: 20px;
+}
+
+.enlaces-sitio h3,
+.soporte h3,
+.suscripcion h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white; 
+}
+
+.beneficios-contenido {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.parrafo-nosotros {
+  text-align: center;
+  margin: 10px auto;
+}
